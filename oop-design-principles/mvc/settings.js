@@ -7,8 +7,8 @@ module.exports = {
   // Environment-dependent settings
   development: {
     db: {
-			dialect: "mongodb",
-      uri: process.env.DB_URI || ""
-    }
-  }
+      dialect: "mongodb",
+      uri: process.env.DB_URI || "",
+    },
+  },
 };
